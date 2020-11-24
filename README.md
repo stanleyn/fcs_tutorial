@@ -12,13 +12,41 @@ These examples show you how to create your `cells x marker` matrices that can be
 
 First, make sure you have FlowKit installed: 
 
-`pip3 install FlowKit` 
+```bash
+pip3 install FlowKit` 
+```
+
+You can read the following for more info about FlowKit,
+* https://pypi.org/project/FlowKit/
+* https://flowkit.readthedocs.io/en/develop/index.html
 
 You can check out `sampleFCSProcess.py` to see steps with instructions or,
 
-```python
+```bash
 python3 sampleFCSProcess.py
 ```
 
 It will print a preview of the cell x marker data matrix.
 
+# Using flowCore in R
+
+Makre sure you have flowCore installed,
+
+```R
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("flowCore")
+```
+
+You can read more about flowCore here,
+
+* https://bioconductor.org/packages/release/bioc/html/flowCore.html
+
+You can check out  `flowCoreProcess.R` to see steps with instructions or,
+
+```R
+source('flowCoreProcess.R')
+```
+
+It will print a sample of your data matrix, which is the same as with flowkit :) 

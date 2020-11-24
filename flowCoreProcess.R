@@ -29,4 +29,4 @@ toKeep=toKeep+1
 #here is your data matrix 
 X=X[,toKeep]
 
-
+print(X[1:5,1:5])
