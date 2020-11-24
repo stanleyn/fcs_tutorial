@@ -26,7 +26,7 @@ You can check out `sampleFCSProcess.py` to see steps with instructions or,
 python3 sampleFCSProcess.py
 ```
 
-It will print a preview of the cell x marker data matrix.
+It will print a preview of the `cell x marker` data matrix.
 
 # Using flowCore in R
 
