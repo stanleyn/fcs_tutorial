@@ -49,4 +49,4 @@ You can check out  `flowCoreProcess.R` to see steps with instructions or,
 source('flowCoreProcess.R')
 ```
 
-It will print a sample of your data matrix, which is the same as with flowkit :) 
+This will print a sample of your data matrix, which is the same as with flowkit :) 
