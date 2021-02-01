@@ -13,7 +13,7 @@ These examples show you how to create your `cells x marker` matrices that can be
 First, make sure you have FlowKit installed: 
 
 ```bash
-pip3 install FlowKit` 
+pip3 install FlowKit
 ```
 
 You can read the following for more info about FlowKit,
