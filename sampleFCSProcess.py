@@ -33,8 +33,8 @@ toKeep = [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,32,33
 ##################################################################
 
 #now we will transform the data and select our columns/markers of interest
-dm_trans= np.arcsinh(1./5 * dm[:,toKeep])
-CNames=CNames[toKeep]
+dm_trans = np.arcsinh(1./5 * dm[:,toKeep])
+CNames = CNames[toKeep]
 
 #you could have stopped there, but we can make a 'nice' dataframe
 df_nice = pd.DataFrame(dm_trans,columns=CNames)
