@@ -18,7 +18,7 @@ sample = fk.Sample(fcs_path)
 print(sample)
 
 #convert to numpy array
-dm = sample.get_raw_events()
+dm = sample._get_raw_events()
 
 #now we will look at the channel names. This is helpful because we will get comprehsnible marker names.
 #we will then be only selecting channel corresponding to our marker of interest
